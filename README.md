@@ -45,10 +45,12 @@ pip install -r requirements.txt
 
 ### 3. Download the data
 
-Download the dataset from Dryad:  
+The entire dataset is available on Dryad:  
 👉 https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czpq
 
-Specifically, download tuningTasks.tar.gz and sentences.tar.gz. 
+The word and sentence trials are contained in tuningTasks.tar.gz (941MB) and sentences.tar.gz (14.8 GB), respectively. 
+
+Alternatively, you can find the required files in the datafiles directory on [Google Drive](https://drive.google.com/drive/folders/15R0oX1uf52J9ozRgO0Bv4D00a1oUrliX?usp=sharing).
 
 Place the downloaded files in a `data/` directory.
 
@@ -58,7 +60,7 @@ Run the provided notebooks to generate [whole session](./GC_Whole_Session.ipynb)
 
 Change the gc_wholefile_dir and dataDir variables to correspond to your local file organization.
 
-Alternatively, download the data directly from [Google Drive](https://drive.google.com/drive/folders/15R0oX1uf52J9ozRgO0Bv4D00a1oUrliX?usp=sharing).
+Running this takes a long time, so you can find the Granger Causality results reported in the writeup on [Google Drive](https://drive.google.com/drive/folders/15R0oX1uf52J9ozRgO0Bv4D00a1oUrliX?usp=sharing).
 
 ### 5. Generate the figures
 
