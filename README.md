@@ -50,7 +50,7 @@ The entire dataset is available on Dryad:
 
 The word and sentence trials are contained in tuningTasks.tar.gz (941MB) and sentences.tar.gz (14.8 GB), respectively. 
 
-Alternatively, you can find the required files in the datafiles directory on [Google Drive](https://drive.google.com/drive/folders/15R0oX1uf52J9ozRgO0Bv4D00a1oUrliX?usp=sharing).
+Alternatively, you can find the files used in the writeup in the datafiles/raw_data directory on [Google Drive](https://drive.google.com/drive/folders/15R0oX1uf52J9ozRgO0Bv4D00a1oUrliX?usp=sharing).
 
 Place the downloaded files in a `data/` directory.
 
@@ -58,9 +58,9 @@ Place the downloaded files in a `data/` directory.
 
 Run the provided notebooks to generate [whole session](./GC_Whole_Session.ipynb) or [word trial](./GC_Word_Trials.ipynb) results. 
 
-Change the gc_wholefile_dir and dataDir variables to correspond to your local file organization.
+Change the data_dir variable at the beginning of the notebook to correspond to your local environment.
 
-Running this takes a long time, so you can find the Granger Causality results reported in the writeup on [Google Drive](https://drive.google.com/drive/folders/15R0oX1uf52J9ozRgO0Bv4D00a1oUrliX?usp=sharing).
+Running this takes a long time, so you can find the Granger Causality results reported in the writeup on [Google Drive](https://drive.google.com/drive/folders/15R0oX1uf52J9ozRgO0Bv4D00a1oUrliX?usp=sharing) in datafiles.
 
 ### 5. Generate the figures
 
@@ -70,7 +70,7 @@ Run the provided notebooks to generate figures in the project writeup:
 - [Figure 9](./GC_Word_Trials.ipynb)
 - [Figures 10-11](./GC_Whole_Session.ipynb)
 
-Remember to change the directories in the early cells of each notebook to correspond to your local file organization.
+Remember to change the data_dir variable to correspond with your local environment.
 
 ---
 
@@ -82,4 +82,4 @@ Remember to change the directories in the early cells of each notebook to corres
 
 ## 📬 Contact
 
-For questions or contributions, feel free to open an issue. 
+For questions or contributions, feel free to open an issue or email me at aidan.truel@gmail.com. 
