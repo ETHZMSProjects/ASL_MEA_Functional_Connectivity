@@ -1,5 +1,6 @@
 # 🧠 ASL_MEA_Functional_Connectivity
 [![DOI](https://zenodo.org/badge/930843447.svg)](https://doi.org/10.5281/zenodo.15254343)
+
 This repository contains code and data analysis tools for investigating functional connectivity in multielectrode array (MEA) recordings during spoken word and sentence production by an ALS patient. The data was originally recorded for use in a brain-computer interface (BCI), as reported by Willett et al in the paper below.
 
 ---
